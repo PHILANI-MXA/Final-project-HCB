@@ -45,7 +45,7 @@
     left: 0;
     right: 0;
     background-color: #e9ecef;
-    margin-top: -35px;
+    margin-top: -15px;
 }
 
 .nav-link {
@@ -176,9 +176,9 @@ section {
     object-fit: cover;
 }
 
-.caropic {
+.pics {
     width: 50%;
-    height: 60%;
+    height: 50%;
     aspect-ratio: 1;
     border-radius: 50%;
     object-fit: cover;

@@ -24,12 +24,12 @@
 
 <body>
     <div class="container-fluid">
-        <nav class=" navbar-expand-lg navbar-dark bg-dark text-dark navbar navbar-fixed-top bg-transparent" id="topNav">
+        <nav class=" navbar-expand-sm navbar-dark bg-dark text-dark navbar navbar-fixed-top bg-transparent" id="topNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
             <span class="d-block d-lg-none"></span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav m-auto my-0">
+                <ul class="navbar-nav m-auto my-0 border border-white">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
@@ -245,62 +245,52 @@
     </section>
     <!-- Testimonials section -->
     <section class="text-white py-5 vh-100 bimage" id="testimonials">
-        <div class="container h-100">
+        <div class="container h-100 text-center">
             <h2 class="d-flex justify-content-center align-items-center flex-column text-black bg-white">Testimonials</h2>
-            <div class="row">
-                <div class="row my-5">
-                    <div class="col-md-8">
-                        <div class="">
-                            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active" data-bs-interval="10000">
-                                        <img src="/images/joel2 (1).jpg" class="d-block w-50 caropic" alt="photo">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Godwin Dzvapatsva</h5>
-                                            <p class="testtext">I am confident that Philani can meet your expectations. I recommend him-Joel Mukanya-Coding Lecturer
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="1000">
-                                        <img src="/images/Silizwe (2).JPG" class="d-block w-50 caropic" alt="photo">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Siliziwe Pani</h5>
-                                            <div>
-                                                <p class="testtext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, assumenda fuga. Quo illum architecto doloremque ipsam repellendus deserunt consectetur facilis dolorem quae numquam in eos rerum, minus
-                                                    autem iusto cupiditate.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="/images/Sibongile (2).JPG" class="d-block w-50 caropic" alt="photo">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Sibongile Rwayi</h5>
-                                            <p class="testtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quis culpa ut dicta temporibus veritatis, harum illum itaque reiciendis quidem illo vitae aperiam iusto, facilis inventore nihil quos atque ipsum!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                                </button>
+            <div class="container text-black text-center">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1" class="nav-circle active" aria-current="true"></button>
+                        <button id="nav-circle-center" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="nav-circle"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="nav-circle"></button>
+                    </div>
+                    <div class="carousel-inner pb-5">
+                        <div class="carousel-item active">
+                            <div class="carousel-con-custom">
+                                <img class="pics" src="/images/joel2 (1).jpg" alt="Amanda Gudlwa's profile image on testimonial carousel">
+                                <h5 class="my-3">Joel</h5>
+                                <p class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio dicta commodi ea suscipit laudantium accusantium consectetur possimus iusto doloribus, culpa cum, ad nesciunt, officia enim tenetur nihil nobis iste?
+                                </p>
                             </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="pics" src="/images/Sibongile (2).JPG" alt="Philani Mxathule's image on testimonial carousel">
+                            <h5 class="my-3">Philani Mxathule</h5>
+                            <p class="text-wrap">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad eligendi aperiam iure deserunt reiciendis ipsam, a veritatis est fugit maiores quia quaerat, alias minus nostrum voluptas eum ex provident fugiat.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="pics" src="/images/Silizwe (2).JPG" alt="Silizwe Pani's image on testimonial carousel">
+                            <h5 class="my-3">Silizwe Pani</h5>
+                            <p class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed at, sit quod, nam deleniti ab facilis molestiae, unde atque impedit porro expedita architecto aspernatur eos officiis animi debitis nemo!</p>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
     <section class=" bimage text-white py-5 vh-100" id="contact">
         <div class="container h-100">
             <h2 class="d-flex justify-content-center align-items-center flex-column bg-white text-black">Contact me</h2>
