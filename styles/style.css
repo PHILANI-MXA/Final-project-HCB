@@ -44,7 +44,6 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: black;
     background-color: #e9ecef;
 }
 
@@ -52,6 +51,11 @@
     border: white;
     background-color: black;
     top: 0;
+}
+
+.nav-item {
+    margin: 4px;
+    border-radius: 50%;
 }
 
 
@@ -72,6 +76,12 @@
     right: 0;
     left: 0;
     bottom: -0.1%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2px;
 }
 
 
@@ -101,8 +111,8 @@ h3 {
     align-items: center;
 }
 
-img {
-    width: 60%;
+.animate {
+    width: 100%;
     aspect-ratio: 1;
     border-radius: 50%;
     object-fit: contain;
@@ -143,4 +153,38 @@ section {
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+}
+
+
+/* contact */
+
+.spc {
+    margin-bottom: 30px;
+    font-size: large;
+    justify-content: flex-start;
+}
+
+.photo {
+    align-items: center !important;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.caropic {
+    width: 50%;
+    height: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.mrg {
+    margin-right: 0px !important;
+}
+
+.icons {
+    margin-right: 10px;
 }
