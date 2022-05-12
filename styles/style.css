@@ -27,6 +27,7 @@
 
 .nav-item {
     border-radius: 50%;
+    box-shadow: white;
 }
 
 
@@ -48,12 +49,13 @@
     left: 0;
     bottom: 0;
     margin-bottom: -40px;
+    background-color: black;
 }
 
 a {
     color: white;
     text-decoration: none;
-    margin-right: 2px;
+    margin-right: 10px;
 }
 
 a:hover {
@@ -76,20 +78,6 @@ div {
     background-size: cover;
     background-position: 0%;
     background-image: url(/images/darkimg.jpg);
-}
-
-div .button {
-    padding: 2px 20px;
-    height: 30px;
-    width: 100px;
-    line-height: 30px;
-    text-align: center;
-    border: 2px solid #878787;
-    background-color: #c0c0c0;
-    border-radius: 10px;
-    margin: 20px;
-    cursor: pointer;
-    background-color: white;
 }
 
 .bit {
@@ -169,6 +157,7 @@ section {
     height: 80%;
     border-radius: 50%;
     object-fit: cover;
+    margin-right: 65%;
 }
 
 .pics {
