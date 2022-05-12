@@ -20,9 +20,13 @@
 
 @media screen and (max-width: 575px) {
     .nav-item {
-        border-radius: 5%;
+        border-radius: 50%;
         width: 6em;
     }
+}
+
+.nav-item {
+    border-radius: 50%;
 }
 
 
@@ -42,8 +46,8 @@
     background-color: transparent;
     right: 0;
     left: 0;
-    bottom: -0.1%;
-    margin-bottom: -45px;
+    bottom: 0;
+    margin-bottom: -40px;
 }
 
 a {
@@ -54,6 +58,10 @@ a {
 
 a:hover {
     color: #20c997;
+}
+
+div {
+    transition-property: width;
 }
 
 
@@ -70,6 +78,25 @@ a:hover {
     background-image: url(/images/darkimg.jpg);
 }
 
+div .button {
+    padding: 2px 20px;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid #878787;
+    background-color: #c0c0c0;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.bit {
+    font-size: larger;
+    font-style: italic;
+}
+
 .bimage {
     background-image: url(/images/darkimg.jpg);
     background-position: 0%;
@@ -79,8 +106,9 @@ a:hover {
 
 h3 {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     align-items: center;
+    font-weight: bolder;
 }
 
 .animate {
@@ -179,4 +207,8 @@ section {
 .progress {
     height: 5px;
     line-height: 0.1;
+}
+
+.btn-primary {
+    align-items: center;
 }
