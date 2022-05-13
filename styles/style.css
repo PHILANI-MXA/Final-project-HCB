@@ -58,6 +58,10 @@ a {
     margin-right: 10px;
 }
 
+.href:hover {
+    color: #20c997;
+}
+
 a:hover {
     color: #20c997;
 }
@@ -82,7 +86,7 @@ div {
 
 .bit {
     font-size: larger;
-    font-style: italic;
+    font-style: italic
 }
 
 .bimage {
@@ -94,9 +98,14 @@ div {
 
 h3 {
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     align-items: center;
     font-weight: bolder;
+}
+
+h5 {
+    font-size: large;
+    font-weight: bold;
 }
 
 .animate {
@@ -199,4 +208,35 @@ section {
 
 .btn-primary {
     align-items: center;
+}
+
+
+/* test */
+
+h3 {
+    padding: 24px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(245, 83%, 46%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1s infinite linear;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 600px;
+    }
+    100% {
+        background-position: 600px;
+    }
+}
+
+h5 {
+    padding: 24px;
+    background: linear-gradient(to left, hsl(232, 59%, 13%) 0, hsl(118, 97%, 50%) 10%, hsl(0, 82%, 57%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s infinite linear;
 }
