@@ -131,6 +131,7 @@ h5 {
 section {
     height: 100% !important;
     overflow: auto;
+    overflow-x: auto;
 }
 
 
